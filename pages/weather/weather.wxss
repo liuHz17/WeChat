@@ -1,0 +1,10 @@
+/* pages/weather/weather.wxss */
+
+text,
+input {
+  height: 4em;
+}
+
+input {
+  background: #ff0;
+}

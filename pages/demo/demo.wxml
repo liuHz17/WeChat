@@ -1,0 +1,4 @@
+<!--pages/demo/demo.wxml-->
+<text>Hello, {{name}}!</text>
+<button type='primary' bindtap='testTap'>button</button>
+<navigator url='../index/index' open-type='redirect'>返回首页</navigator>

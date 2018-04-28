@@ -1,0 +1,5 @@
+<!--pages/weather/weather.wxml-->
+<text>{{weather}}</text>
+<input placeholder='请输入您要查询的城市' bindinput='getCity'></input>
+<button bindtap='query'>query</button>
+<navigator url='../index/index' open-type='redirect'>返回首页</navigator>

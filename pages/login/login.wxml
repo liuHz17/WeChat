@@ -1,0 +1,23 @@
+<!--pages/login/login.wxml-->
+<view class="bodyContainer">
+  <text class="header">管家链之上医月嫂</text>
+  <view class="formArea">
+    <form bindsubmit="formSubmit" bindreset="formReset">  
+          <view class="section">  
+              <view class="section__title">手机号码:</view>  
+              <view class='form-group'>  
+                  <input type="text" class="input-text" name="username" placeholder="请输入手机" />  
+              </view>      
+          </view>  
+          <view class="section">  
+              <view class="section__title">验证码:</view>  
+              <view class='form-group'>  
+                  <input type="text" class="input-text" name="yanzheng" placeholder="请输入" />  
+              </view>      
+          </view> 
+          <view class="yanZheng">验证码</view>
+          <button class="loginButton">登录</button> 
+          <button class="loginButton">游客体验</button> 
+    </form>
+  </view>
+</view>

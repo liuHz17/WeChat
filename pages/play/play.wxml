@@ -1,0 +1,9 @@
+<!--pages/play/play.wxml-->
+<!-- <text>成功如登梯 踏实每一步</text> -->
+ <view>
+  <text>虎鲸能发出多少种声音？</text>
+  <view wx:for="{{arrayAns}}" wx:for-index="idx" wx:for-item="item">
+    <button class="primary" data-text="{{item.message}}" bindtap='bindtapFunc'>{{idx}}: {{item.message}}</button>
+  </view>
+ </view>
+<!-- <navigator url='../index/index' open-type='redirect'>返回首页</navigator> -->

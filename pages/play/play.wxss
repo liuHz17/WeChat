@@ -1,0 +1,4 @@
+/* pages/play/play.wxss */
+button{
+  margin-top:1em;
+}

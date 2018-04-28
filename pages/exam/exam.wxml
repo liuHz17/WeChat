@@ -1,0 +1,79 @@
+<!--pages/exam/exam.wxml-->
+<view >
+<!-- <text>pages/exam/exam.wxml</text> -->
+
+<image src="/resources/img/header.jpg"></image>
+<navigator url='../play/play' open-type='redirect'>
+<view class="floor1">
+  <text class='status'>初级</text> 
+  <view  class="line"></view>
+  <view class="content">
+    <view class="level"> 
+      <view class="levelTop">
+        <text>好学宝贝</text>
+        <!-- <view>level 1</view> -->
+        <view class="circle">
+          <image src="/resources/img/level1.jpg"></image>
+        </view>
+      </view> 
+      <view class="levelBottom">
+        <image src="/resources/img/star.png" style="display:block border-radius:50%  "></image>
+        <image src="/resources/img/star.png"></image>
+        <image src="/resources/img/weather.png"></image>
+        <image src="/resources/img/weather.png"></image>
+        <image src="/resources/img/weather.png"></image>
+      </view>
+    </view>
+    <view class="level"> 
+      <view class="levelTop">
+        <text>聪明宝贝</text>
+        <!-- <view>level 2</view> -->
+        <view class="circle">
+          <image src="/resources/img/level2.jpg"></image>
+        </view>
+      </view> 
+      <view class="levelBottom">
+
+      </view>
+    </view>
+  </view>
+</view>
+</navigator>
+
+<view class="floor1">
+  <text class='status'>中级</text> 
+  <view  class="line"></view>
+  <view class="content">
+    <view class="level"> 
+      <view class="levelTop">
+        <text>好学宝贝</text>
+        <!-- <view>level 1</view> -->
+        <view class="circle">
+          <image src="/resources/img/level1.jpg"></image>
+        </view>
+      </view> 
+      <view class="levelBottom">
+        <image src="/resources/img/weather.png"></image>
+        <image src="/resources/img/weather.png"></image>
+        <image src="/resources/img/weather.png"></image>
+        <image src="/resources/img/weather.png"></image>
+        <image src="/resources/img/weather.png"></image>
+      </view>
+    </view>
+    <view class="level"> 
+      <view class="levelTop">
+        <text>聪明宝贝</text>
+        <!-- <view>level 2</view> -->
+        <view class="circle">
+          <image src="/resources/img/level2.jpg"></image>
+        </view>
+      </view> 
+      <view class="levelBottom">
+
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- <navigator url='../game/game' open-type='redirect'>去玩其他游戏</navigator> -->
+</view>

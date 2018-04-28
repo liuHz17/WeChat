@@ -1,0 +1,9 @@
+<text>分数： {{score}}</text>
+<view class='wrapper'>
+  <view 
+  wx:for='{{boxes}}' 
+  style='background: {{item.color}}; width: {{item.length}}; height: {{item.length}}'
+  data-test='{{item.test}}'
+  bindtap='select'></view>
+</view>
+<button type='primary' bindtap='select'>开始</button>
